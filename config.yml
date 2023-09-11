@@ -21,7 +21,7 @@ params:
   keywords: [Portfolio, Development, Personal]
   author: Mebious
   defaultTheme: dark
-  disableThemeToggle: false
+  disableThemeToggle: true
 
   profileMode:
     enabled: true

@@ -1,0 +1,46 @@
+# Frontmatter
+baseURL: "https://mebious.dev/"
+title: Mebious
+theme: WonderMod
+copyright: '[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)'
+
+# Boolean
+enableRobotsTXT: true
+enableGitInfo: true
+disableKinds: ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Minify
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# Parameters
+params:
+  env: production
+  description: "Cybersecurity and FOSS enthusiast in the Wired"
+  keywords: [Portfolio, Development, Personal]
+  author: Mebious
+  defaultTheme: dark
+  disableThemeToggle: false
+
+  profileMode:
+    enabled: true
+    title: Mebious
+    subtitle: "Cybersecurity and FOSS enthusiast in the Wired"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/mebious-dev/"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+# Markup
+markup:
+  highlight: # Added WonderMod configuration: https://github.com/Wonderfall/hugo-WonderMod#configure
+    style: dracula
+    lineNos: false
+    noClasses: false
+    guessSyntax: true

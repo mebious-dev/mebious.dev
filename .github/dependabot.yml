@@ -6,6 +6,6 @@ updates:
       interval: "daily"
   
   - package-ecosystem: "gitsubmodule"
-      directory: "/"
-      schedule:
-        interval: "daily"
+    directory: "/"
+    schedule:
+      interval: "daily"
